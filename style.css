@@ -1,0 +1,26 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&family=Sofia+Sans&display=swap");
+
+body {
+  margin: none;
+  padding: none;
+  background-color: rgb(156, 229, 255);
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: "Sofia Sans", sans-serif;
+  color: #151515;
+}
+
+.game-status {
+  font-family: "Poppins", sans-serif;
+}
