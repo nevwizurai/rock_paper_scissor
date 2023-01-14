@@ -11,23 +11,45 @@
   <body onload="handleLoad()">
     <div class="container">
       <h1>Rock Paper Scissor</h1>
+
       <div class="game-status">
         <div class="round-score">
           <p id="round">Round 1</p>
           <p id="score">Player: 0<br />Computer: 0</p>
         </div>
+
         <div class="choices">
-          <p class="computer-pick">Computer: Ready...</p>
-          <p class="player-pick">Player: Awaiting input...</p>
+          <p class="computer-pick">Computer: ready...</p>
+          <p class="player-pick">Player: choosing ...</p>
         </div>
-        <hr />
+
+        <!-- <hr /> -->
+
         <p class="result">...</p>
       </div>
 
       <div class="player-buttons">
-        <button onclick="handleClick('rock')">Rock</button>
-        <button onclick="handleClick('paper')">Paper</button>
-        <button onclick="handleClick('scissor')">Scissor</button>
+        <button
+          onclick="handleClick('rock')"
+          onmouseover="handleHover('Rock')"
+          onmouseleave="handleUnhover()"
+        >
+          Rock
+        </button>
+        <button
+          onclick="handleClick('paper')"
+          onmouseover="handleHover('Paper')"
+          onmouseleave="handleUnhover()"
+        >
+          Paper
+        </button>
+        <button
+          onclick="handleClick('scissor')"
+          onmouseover="handleHover('Scissor')"
+          onmouseleave="handleUnhover()"
+        >
+          Scissor
+        </button>
       </div>
     </div>
   </body>

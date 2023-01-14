@@ -57,3 +57,13 @@ function handleClick(playerChoice) {
 function handleLoad() {
   console.log("loaded");
 }
+
+const player_choice = document.querySelector(".player-pick");
+
+function handleHover(choice) {
+  player_choice.innerHTML = `Player: ${choice}`;
+}
+
+function handleUnhover() {
+  player_choice.innerHTML = `Player: choosing ...`;
+}
