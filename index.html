@@ -20,7 +20,7 @@
 
         <div class="choices">
           <p class="computer-pick">Computer: ready...</p>
-          <p class="player-pick">Player: choosing ...</p>
+          <p class="player-pick">Player: (selecting)</p>
         </div>
 
         <!-- <hr /> -->
@@ -29,25 +29,9 @@
       </div>
 
       <div class="player-buttons">
-        <button
-          onclick="handleClick('rock')"
-          onmouseover="handleHover('Rock')"
-          onmouseleave="handleUnhover()"
-        >
-          Rock
-        </button>
-        <button
-          onclick="handleClick('paper')"
-          onmouseover="handleHover('Paper')"
-          onmouseleave="handleUnhover()"
-        >
-          Paper
-        </button>
-        <button
-          onclick="handleClick('scissor')"
-          onmouseover="handleHover('Scissor')"
-          onmouseleave="handleUnhover()"
-        >
+        <button class="btn-choice" onclick="handleClick('rock')">Rock</button>
+        <button class="btn-choice" onclick="handleClick('paper')">Paper</button>
+        <button class="btn-choice" onclick="handleClick('scissor')">
           Scissor
         </button>
       </div>
