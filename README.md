@@ -1,3 +1,3 @@
-# Rock Paper Scissor Game Made Using JavaScript
+# Rock Paper Scissor by nevwizurai
 
-- By Nevir Wizurai
+Live Preview: https://nevwizurai.github.io/rock_paper_scissor
